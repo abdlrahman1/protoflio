@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+	*{
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  color: #0C1829;
+}
+body{
+  margin: 0px;
+  background-color: #0001;
+}
+/* for header */
+header{
+  width: 100%;
+  /* changing */
+  height: 8vh;
+  background-color: #212121;
+  padding: 2.5vh;
+  box-shadow: 0px 5px 10px #222;
+  position: fixed;
+  top: 0px;
+}
+header a{
+  text-decoration:none;
+  padding: 2.2vh 0px;
+  color:#fff9;
+  font-size: 1.3em;
+}
+header a:hover{
+  color:#fff;
+}
+section{
+  width: 80%;
+  height: fit_content;
+  padding: 30px;
+  margin: 100px auto;
+  background-color: #fff;
+}
+.color{
+  cursor: pointer;
+  width: 250px;
+  padding: 15px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #222;
+  transition: .6s;
+}
+.color:hover{
+  position: relative;
+  top: 2px;
+}
+[value="button color"]{
+  background-color: #98A3FF;
+  color: #000;
+}
+[value="button color"]:hover{
+  background-color: #2E4566;
+  color: #fff;
+}
+
+[value="button color 2"]{
+  background-color: #2E4566;
+  color: #fff;
+}
+[value="button color 2"]:hover{
+  background-color: #5C6A8D;
+}
+[value="button color 3"]{
+  background-color: #5C6A8D;
+  color: #fff;
+
+}
+[value="button color 3"]:hover{
+  background-color: #2E4566;
+}
+
+[value="button color 4"]{
+  background-color: #c33;
+  color: #fff;
+}
+[value="button color 4"]:hover{
+  background-color: #2E4566;
+}
+[value="button color 5"]{
+  background-color: #ddd;
+  color: #0C1829;
+}
+[value="button color 5"]:hover{
+  background-color: #7f7;
+}
+[value="button color 6"]{
+  background-color: #ddd;
+  color: #0C1829;
+  margin-top: 25px;
+}
+[value="button color 6"]:hover{
+  background-color: #f77;
+}
+.buton_size_small{
+  cursor: pointer;
+  width: 80px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #222;
+  transition: .6s;
+}
+.buton_size_mediam{
+  cursor: pointer;
+  width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #222;
+  transition: .6s;
+}
+.buton_size_mediam2{
+  cursor: pointer;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #222;
+  transition: .6s;
+}
+.buton_size_large{
+  cursor: pointer;
+  width: 180px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #222;
+  transition: .6s;
+}
+section a{
+  color: #0C1829;
+  transition: .6s;
+}
+#link1:hover{
+  color: #0C182999;
+}
+#link2:hover{
+  text-decoration: none;
+  color: #0C182999;
+}
+#link3{
+  text-decoration: none;
+  color: #fffc;
+}
+#link3:hover{
+  text-decoration: underline;
+}
+#link4{
+  font-size: 1.2em;
+  text-decoration: none;
+}
+#link4:hover{
+  position: relative;
+  left: 3px;
+}
+#link5{
+  font-size: 1.2em;
+  text-decoration: none;
+}
+#link5:hover{
+  position: relative;
+  right: 3px;
+}
+#link6{
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #327CCD;
+}
+input[placeholder="text color"]{
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ddd;
+}
+input[type="text"]:focus{
+  outline: none;
+}
+.text_size_small{
+  width: 60px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #222;
+  transition: .6s;
+}
+.text_size_mediam{
+  width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #222;
+  transition: .6s;
+}
+.text_size_mediam2{
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #222;
+  transition: .6s;
+}
+.text_size_large{
+  width: 180px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #222;
+  transition: .6s;
+}
+
+footer{
+  width: 100%;
+  height: fit_content;
+  padding: 20px;
+  text-align: center;
+  background-color: #222;
+}
+
+	
+	</style>
+  </head>
+  <body>
+    <header>
+      <a href="#" style="color:#fff;border-bottom: #fff solid 6px;margin:20px;">Home</a>
+      <a href="#">about</a>
+    </header>
+    <section>
+      <h1>button color</h1>
+      <input type="button" class="color" value="button color">
+      <input type="button" class="color" value="button color 2">
+      <input type="button" class="color" value="button color 3">
+      <input type="button" class="color" value="button color 4">
+      <input type="button" class="color" value="button color 5">
+      <input type="button" class="color" value="button color 6">
+    </section>
+    <section>
+      <h1>button size</h1>
+      <input type="button" class="buton_size_small" value="small size">
+      <input type="button" class="buton_size_mediam" value="mediam size">
+      <input type="button" class="buton_size_mediam2" value="mediam2 size">
+      <input type="button" class="buton_size_large" value="large size">
+    </section>
+    <section>
+      <h1>links size and color</h1>
+      <a href="#" id="link1">body Link 1</a><br><br>
+      <a href="#" id="link2">body Link 2</a><br><br>
+      <a href="#" id="link4">body Link 4 &#10095;</a><br><br>
+      <a href="#" id="link5">&#10094; body Link 5</a><br><br>
+    </section>
+    <section>
+      <h1>text color</h1>
+      <input type="text" placeholder="text color">
+    </section>
+    <section>
+      <h1>text size</h1>
+      <input type="text" class="text_size_small" placeholder="small size">
+      <input type="text" class="text_size_mediam" placeholder="mediam size">
+      <input type="text" class="text_size_mediam2" placeholder="mediam2 size">
+      <input type="text" class="text_size_large" placeholder="large size">
+    </section>
+
+    <footer>
+      <a href="#" id="link3">footer Link 3</a><br><br>
+      <a href="#" id="link6">spesific link</a>
+    </footer>
+  </body>
+</html>
